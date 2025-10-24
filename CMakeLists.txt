@@ -20,7 +20,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 
 qt5_wrap_cpp(MOC_FILES
-  include/amp_viz/template_panel.hpp
+  include/${PROJECT_NAME}/template_panel.hpp
 )
 
 #link rviz plugins

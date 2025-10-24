@@ -1,4 +1,4 @@
-#include "amp_viz/template_panel.hpp"
+#include "chimera_viz/template_panel.hpp"
 #include "ui/ui_template_panel.h"
 
 TemplatePanel::TemplatePanel(QWidget* parent) : Panel(parent), ui(new Ui::Template_Panel){
